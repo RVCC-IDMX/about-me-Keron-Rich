@@ -1,11 +1,14 @@
 body {
     font-family: dosis;
-    background-color: #50935D;
-    color: #694A4F;
+    background-color: #E0BF28;
+    color: #17178F;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"oswald";
+    text-align:center;
+}
+h1 {
     font-size: 40pt;
 }
 
@@ -14,8 +17,8 @@ header{
 }
 
 #hero, footer {
-    border:2px solid #A84D5B;
-    background-color: #31E855;
+    border:2px solid #00BDE0;
+    background-color: #28E06F;
     text-align: center;
     padding: 10px;
 }
@@ -29,7 +32,13 @@ header{
 }
 
 #netlify {
-    background-color: #31E855;
+    background-color: #28E06F;
     width: 100px;
-    border: 2px ridge #A84D5B;
+    border: 2px ridge #00BDE0;
+}
+
+
+#hobbies ul li:nth-child(even) {
+    color: black;
+
 }
