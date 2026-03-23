@@ -58,6 +58,7 @@ header{
 
 #gallery {
     border: 2px solid #00BDE0 ;
+    margin-bottom: 2rem;
 }
 
 #gallery img {
@@ -66,4 +67,38 @@ header{
 
 #gallery figure {
     text-align: center;
+}
+
+
+/*literature*/
+
+#lit h2 {
+    border: ridge 4px #00BDE0;
+    background: #42614E;
+    padding: 20px;
+}
+
+#lit {
+    border: 2px #00BDE0 solid;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear: both;
+}
+
+/*Dropcaps*/
+
+#lit div p::first-letter {
+    color:red;
+    float: left;
+    font-size:1.5em;
+
 }
