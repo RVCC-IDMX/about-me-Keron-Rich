@@ -16,6 +16,9 @@ header{
     text-align: center;
 }
 
+
+/*hero section*/
+
 #hero, footer {
     border:2px solid #00BDE0;
     background-color: #28E06F;
@@ -27,9 +30,15 @@ header{
     width: 400px;
 }
 
+
+/*bio section*/
+
 #bio {
     text-align: center;
 }
+
+
+/*Netifly Section*/
 
 #netlify {
     background-color: #28E06F;
@@ -38,7 +47,23 @@ header{
 }
 
 
+/* Hobbies Section */
+
 #hobbies ul li:nth-child(even) {
     color: black;
 
+}
+
+/* Gallery Section*/
+
+#gallery {
+    border: 2px solid #00BDE0 ;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: center;
 }
