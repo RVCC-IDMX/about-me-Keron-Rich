@@ -49,10 +49,48 @@ header{
 
 /* Hobbies Section */
 
-#hobbies ul li:nth-child(even) {
-    color: black;
+#hobbies {
+    background:#ffe6e6;
+    border: 4px #ffe8a3 solid m;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-bottom: 100px;
 
 }
+
+#hobbies h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #17178F;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#hobbies ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#hobbies li {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#hobbies ul li:nth-child(even) {
+    background-color: #ffe8a3;
+}
+
+#hobbies ul li:hover {
+    background: #ffe8a3;
+    transform: translateY(-2px);
+    cursor:crosshair;
+}
+
 
 /* Gallery Section*/
 
@@ -96,9 +134,18 @@ header{
 
 /*Dropcaps*/
 
-#lit div p::first-letter {
-    color:red;
+ #lit div p::first-letter {
+    color:#42614E;
     float: left;
-    font-size:1.5em;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 0.8;
+    margin-right: 0.15em;
+    padding: 2px 4px;
+    background:#00BDE0;
+    border-radius: 4px;
+}
+
+
 
 }
