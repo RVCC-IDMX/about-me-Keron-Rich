@@ -190,6 +190,17 @@ header{
     text-align: center;
 }
 
+#myVideo {
+        max-width: 900px;
+        border-width: 4px;
+        margin-bottom: 25px;
+    }
+
+    .caption {
+        font-size: 1.4rem;
+        margin-top: 10px;
+    }
+
 }
 
 /* large screen size */
@@ -212,16 +223,6 @@ figure {
     display: block;
 }
 
- #myVideo {
-        max-width: 900px;
-        border-width: 4px;
-        margin-bottom: 25px;
-    }
-
-    .caption {
-        font-size: 1.4rem;
-        margin-top: 10px;
-    }
 }
 
 
