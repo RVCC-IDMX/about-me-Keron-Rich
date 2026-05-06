@@ -25,7 +25,7 @@ main {
 /* navbar */
 
 .navbar {
-    background-color: #333;
+    background-color: #42614E;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@ main {
 
 .navbar-links a {
     color: whitesmoke;
-    background-attachment: #333;
+    background-attachment: #42614E;
     font-size: 2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -77,7 +77,7 @@ main {
 
 .navbar-links a:hover,
 .navbar-links a:focus {
-    color: #333;
+    color: #42614E;
     background-color: whitesmoke;
     filter: invert(1);
     border-radius: 10px;
