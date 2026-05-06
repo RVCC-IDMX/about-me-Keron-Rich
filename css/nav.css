@@ -49,6 +49,8 @@ main {
     font-size: 1.2em;
 }
 
+
+
 /* navigation list */
 
 .navbar-links li {
@@ -56,8 +58,6 @@ main {
     display: block;
     padding: 0.5em 0;
 }
-
-
 
 /*
  style all a tags in header
@@ -72,6 +72,15 @@ main {
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+}
+
+.navbar-links a:hover,
+.navbar-links a:focus {
+    color: #333;
+    background-color: whitesmoke;
+    filter: invert(1);
+    border-radius: 10px;
+    outline: none; /*may be removed*/
 }
 
 /*
