@@ -1,8 +1,8 @@
 # README
 ## Professional Description
 ### Who am I
-Name: Keron Richardson
-Occupation: Computer science student
+**Name:** Keron Richardson
+**Occupation:** Computer science student
 
 ### Netlify Status Badge
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d523b24c-1c64-436b-9e88-b45c3c836ac3/deploy-status)](https://app.netlify.com/projects/about-me-keron-rich/deploys)
@@ -20,9 +20,9 @@ This web page gives you an insight into my life, including my hobbies and aspira
 
 ### Color Scheme
 Below is the color scheme used for this project and its associated hex code:
-* Light blue: #00BDE0;
+* Light blue: #00BDE0
 * Gray: #42614E
-* Light green: #28E06F;
+* Light green: #28E06F
 
 ### Citations
 
