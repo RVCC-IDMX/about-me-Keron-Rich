@@ -19,5 +19,13 @@ This web page gives you an insight into my life, including my hobbies and aspira
 * **Hyperlinks:**
 
 ### Color Scheme
+Below is the color scheme used for this project and its associated hex code:
+* Light blue: #00BDE0;
+* Gray: #42614E
+* Light green: #28E06F;
 
 ### Citations
+
+
+### License
+An MIT License is included for this website. Further details can be found in the LICENSE section of this repository.
